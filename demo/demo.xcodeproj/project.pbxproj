@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E47BA2B20DA1DB4005FF386 /* PreViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47BA2920DA1DB4005FF386 /* PreViewCell.m */; };
+		6E47BA2C20DA1DB4005FF386 /* PreViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E47BA2A20DA1DB4005FF386 /* PreViewCell.xib */; };
 		6EC204BC20D35619005F3096 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC204BB20D35619005F3096 /* AppDelegate.m */; };
 		6EC204BF20D35619005F3096 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC204BE20D35619005F3096 /* ViewController.m */; };
 		6EC204C220D35619005F3096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC204C020D35619005F3096 /* Main.storyboard */; };
@@ -54,6 +56,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E47BA2820DA1DB4005FF386 /* PreViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreViewCell.h; sourceTree = "<group>"; };
+		6E47BA2920DA1DB4005FF386 /* PreViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreViewCell.m; sourceTree = "<group>"; };
+		6E47BA2A20DA1DB4005FF386 /* PreViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreViewCell.xib; sourceTree = "<group>"; };
 		6E75E30B20D36B6A00B4B001 /* SuPhotoPicker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SuPhotoPicker; sourceTree = "<group>"; };
 		6EC204B720D35619005F3096 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC204BA20D35619005F3096 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -185,6 +190,9 @@
 				6EC204BD20D35619005F3096 /* ViewController.h */,
 				6EC204BE20D35619005F3096 /* ViewController.m */,
 				6EC204C020D35619005F3096 /* Main.storyboard */,
+				6E47BA2820DA1DB4005FF386 /* PreViewCell.h */,
+				6E47BA2920DA1DB4005FF386 /* PreViewCell.m */,
+				6E47BA2A20DA1DB4005FF386 /* PreViewCell.xib */,
 				6EE5C29120D8A0C1002DA002 /* UIImageView+Utils.h */,
 				6EE5C29220D8A0C1002DA002 /* UIImageView+Utils.m */,
 				6EC204C320D3561B005F3096 /* Assets.xcassets */,
@@ -386,6 +394,7 @@
 			files = (
 				6EC6D87420D3982A0034A618 /* SuPhotoPreviewer.xib in Resources */,
 				6EC204C720D3561B005F3096 /* LaunchScreen.storyboard in Resources */,
+				6E47BA2C20DA1DB4005FF386 /* PreViewCell.xib in Resources */,
 				6EC204C420D3561B005F3096 /* Assets.xcassets in Resources */,
 				6EC6D87520D3982A0034A618 /* SuPhotoBrowser.xib in Resources */,
 				6EC6D87E20D3982A0034A618 /* SuBack@2x.png in Resources */,
@@ -417,6 +426,7 @@
 				6EC6D88020D3982A0034A618 /* SuPhotoManager.m in Sources */,
 				6EC6D87A20D3982A0034A618 /* SuPhotoAblumCell.m in Sources */,
 				6EC204CA20D3561B005F3096 /* main.m in Sources */,
+				6E47BA2B20DA1DB4005FF386 /* PreViewCell.m in Sources */,
 				6EC6D87720D3982A0034A618 /* SuPhotoBrowserCell.m in Sources */,
 				6EC6D86C20D3982A0034A618 /* UIView+SuLine.m in Sources */,
 				6EC6D86D20D3982A0034A618 /* NSString+SU.m in Sources */,

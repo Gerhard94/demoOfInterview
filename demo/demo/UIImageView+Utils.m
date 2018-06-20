@@ -88,6 +88,7 @@ static char *sliderKey = "slider";
         make.width.mas_equalTo(200);
         make.centerX.equalTo(backgroundView);
         make.top.equalTo(backgroundView).offset(10);
+        make.height.mas_equalTo(40);
     }];
     self.slider = slider;
 }
